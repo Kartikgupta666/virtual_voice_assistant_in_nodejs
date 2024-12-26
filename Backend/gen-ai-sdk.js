@@ -3,8 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const genAI = new GoogleGenerativeAI("AIzaSyCAzKKud1S2O8BX4G65mMNmth4bkKJ6MiM");
-// const genAI = new GoogleGenerativeAI(process.env.gemini);
+const genAI = new GoogleGenerativeAI("apni API key dalo");
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
